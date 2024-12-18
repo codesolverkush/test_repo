@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 18px;
+      text-align: left;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    h1{
+      color: red;
+      text-align: center;
+    }
+  </style>
+  <script src="https://live.zwidgets.com/js-sdk/1.0.5/ZohoEmbededAppSDK.min.js"></script>
+</head>
+
+<body>
+
+  <div id="open">Open Task's</div>
+  <div id="close">Closed Task's</div>
+  <table id="closeTable"></table>
+  <!-- <h2 id="kushal">id</h2> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
